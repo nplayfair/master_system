@@ -1,7 +1,6 @@
-# NP_CSS [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# Master System CSS [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Minimal CSS library for use as a base in projects. Class names are similar to bootstrap 
-and the structure of this project was inspired by Tania Rascia's [Primitive](https://github.com/taniarascia/primitive) framework.
+Master System box art inspired style using [NP_CSS](https://github.com/nplayfair/np_css) library.
 
 ## Building
 Clone the repository, run `npm install` and then `npm run sass` to watch the project.
