@@ -3,6 +3,7 @@
 // Config
 @import "base/variables";
 @import "base/mixins";
+@import "base/fonts";
 
 // Reset margins, box sizing etc
 @import "base/normalize";
@@ -11,6 +12,7 @@
 // Components
 @import "components/scaffolding";
 @import "components/navigation";
+@import "components/layout";
 @import "components/utilities";
 @import "components/typography";
 @import "components/grid";
