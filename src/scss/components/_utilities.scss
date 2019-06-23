@@ -1,0 +1,123 @@
+/*
+ *  Utilities
+ *
+ *  For adding padding, margin etc
+ */
+
+ /* Padding */
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+.py {
+  padding: 0.5rem 0;
+}
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+
+/* Margin */
+.m-0 {
+  margin: 0;
+}
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.m-3 {
+  margin: 3rem;
+}
+.my {
+  margin: 0.5rem 0;
+}
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+
+// Backgrounds
+.bg-primary {
+  background: $primary-color;
+}
+
+.bg-secondary {
+  background: $secondary-color;
+}
+
+.bg-light {
+  background: $light-color;
+}
+
+.bg-dark {
+  background: $dark-color;
+}
+
+// Border Colors
+.border-primary {
+  border-color: $primary-color;
+}
+
+.border-secondary {
+  border-color: $secondary-color;
+}
+
+.border-warning {
+  border-color: $warning-color;
+}
+
+.border-danger {
+  border-color: $danger-color;
+}
+
+.border-dark {
+  border-color: $dark-color;
+}
+
+// Text color
+.text-white {
+  color: white;
+}
+
+.text-dark {
+  color: $font-color;
+}
+
+
+// Vertical center
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Display State
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+

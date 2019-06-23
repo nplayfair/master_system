@@ -1,0 +1,124 @@
+/* Variables
+ *
+ * Configure variables here
+ */
+
+//* Containers
+$x-small: 600px;
+$small: 800px;
+$medium: 1000px;
+$large: 1200px;
+
+//* Breakpoints
+$mobile: $x-small;
+$desktop: $medium;
+
+//* Colours
+$background: white;
+$primary-color: #41a764;
+$secondary-color: #299ccd;
+$dark-color: #343a3f;
+$light-color: #f8f8f8;
+$danger-color: #d33c40;
+$success-color: #28a745;
+$warning-color: #eeac57;
+$highlight: #ffeea8;
+$link-color: $secondary-color;
+$link-hover-color: darken($secondary-color, 15%);
+$bq-border: 16px solid lighten($primary-color, 40%);
+
+//* Typography
+
+// Body font
+$font-size: 1rem;
+$body-font-size: 1rem;
+$font-style: normal;
+$font-variant: normal;
+$font-weight: normal;
+$line-height: 1.6;
+$font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font Colors
+$font-color: #404040;
+$heading-font-color: #404040;
+$warning-font-color: #941100;
+
+// Headings
+$heading-font-weight: 600;
+$heading-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$heading-line-height: 1.2;
+
+// Mobile headings
+$h1-mobile: 1.75rem;
+$h2-mobile: 1.5rem;
+$h3-mobile: 1.25em;
+$h4-mobile: 1.1rem;
+$h5-mobile: 1.1rem;
+
+// Standard headings
+$h1: 2.25rem;
+$h2: 2rem;
+$h3: 1.75rem;
+$h4: 1.5rem;
+$h5: 1.25rem;
+
+//* Padding
+$padding: 1rem;
+$margins: 1.5rem;
+$content-padding: 60px 0;
+$content-padding-mobile: 30px 0;
+
+//* Borders
+$border-width: 1px;
+$border-style: solid;
+$border-color: #dedede;
+$border-radius: 4px;
+$borders: $border-width $border-style $border-color;
+
+//* Buttons
+$button-background: $primary-color;
+$button-background-hover: darken($button-background, 10%);
+$button-color: white;
+$button-color-hover: white;
+$button-font-weight: 600;
+$button-font-size: 1rem;
+$button-border-style: solid;
+$button-border-width: 1px;
+$button-border-color: $button-background;
+$button-border-radius: 4px;
+$button-text-transform: none;
+
+// Accented buttons
+$accent-button-background: $secondary-color;
+$accent-button-color: white;
+$accent-button-color-hover: white;
+
+// Round buttons
+$round-buttons: 40px;
+
+// Enumerate button classes
+$buttons: ('.btn, a.btn, button, [type=submit], [type=reset], [type=button]');
+
+// Enumerate badge classes
+$badges: ('.badge, .badge-round');
+
+// Code
+$code-color: $font-color;
+$code-background: transparent;
+$code-size: 14px;
+$code-family: Menlo, monospace;
+$code-borders: $borders;
+
+ // Tables
+ $stripes: #f8f8f8;
+ $caption: #ababab;
+
+ // Forms
+ $form-border: 1px solid $border-color;
+ $form-border-focus: 1px solid $link-color;
+ $placeholder: darken($light-color, 10%);
+ $input-background: transparent;
+ $forms: ('[type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea');
+
+ // Cards
+ $card-border-color: #ccc;

@@ -1,0 +1,165 @@
+/*
+ *  Buttons and badges
+ */
+
+ // Parent classes
+
+ %buttons {
+   -webkit-appearance: none;
+   display: inline-block;
+   border-radius: $button-border-radius;
+   font-weight: $button-font-weight;
+   font-size: $button-font-size;
+   text-transform: $button-text-transform;
+   padding: 0.75rem 1.25rem;
+   margin: 0 0 0.5rem 0;
+   vertical-align: middle;
+   text-align: center;
+   cursor: pointer;
+   text-decoration: none;
+   line-height: 1;
+ }
+
+ %buttons-hover {
+   border: $button-border-width $button-border-color darken($button-border-color, 10%);
+   background: $button-background-hover;
+   color: $button-color;
+   text-decoration: none;
+ }
+
+ %buttons-focus {
+    border: $button-border-width $button-border-style darken($button-border-color, 10%);
+    background: darken($button-background, 10%);
+    color: $button-color;
+    text-decoration: none;
+ }
+
+ %badges {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+  margin: 0.3rem;
+  border-radius: 0;
+  text-decoration: none;
+  line-height: 1;
+}
+
+ //* Children which extend button and badge class
+
+ // Buttons
+
+ #{$buttons} {
+   @extend %buttons;
+   &::-moz-focus-inner {
+     border: 0;
+     padding: 0;
+   }
+   &:hover {
+     @extend %buttons-hover;
+   }
+   &:focus,
+   &:active {
+     @extend %buttons-focus;
+   }
+ }
+
+ // Badges
+
+ #{$badges} {
+   @extend %badges;
+ }
+
+ // Primary buttons and badges
+ .btn-primary,
+ a.btn-primary,
+ .badge-primary {
+   color: $button-color;
+   border: $button-border-width $button-border-style $button-border-color;
+   background: $primary-color;
+ }
+
+ // Accented buttons and badges
+ .btn-secondary,
+ a.btn-secondary,
+ .badge-secondary {
+   color: $accent-button-color;
+   border: 1px solid $accent-button-background;
+   background: $accent-button-background;
+   &:hover,
+   &:focus,
+   &:active {
+     color: $accent-button-color-hover;
+     border: 1px solid darken($accent-button-background, 10%);
+     background: darken($accent-button-background, 10%);
+   }
+ }
+
+// Danger buttons and badges
+ .btn-danger,
+ a.btn-danger,
+ .badge-danger {
+   color: $button-color;
+   border: 1px solid $danger-color;
+   background: $danger-color;
+   &:hover,
+   &:focus,
+   &:active {
+     color: $button-color-hover;
+     border: 1px solid darken($danger-color, 10%);
+     background: darken($danger-color, 10%);
+   }
+ }
+
+ // Warning buttons and badges
+ .btn-warning,
+ a.btn-warning,
+ .badge-warning {
+   color: $button-color;
+   border: 1px solid $warning-color;
+   background: $warning-color;
+   &:hover,
+   &:focus,
+   &:active {
+     color: $button-color-hover;
+     border: 1px solid darken($warning-color, 10%);
+     background: darken($warning-color, 10%);
+   }
+ }
+
+ // Dark buttons and badges
+ .btn-dark,
+ a.btn-dark,
+ .badge-dark {
+   color: $button-color;
+   border: 1px solid $dark-color;
+   background: $dark-color;
+   &:hover,
+   &:focus,
+   &:active {
+     color: $button-color-hover;
+     border: 1px solid darken($dark-color, 10%);
+     background: darken($dark-color, 10%);
+   }
+ }
+
+ // Rounded buttons and badges
+ .btn-round,
+ .a.btn-round,
+ .badge-round {
+   border-radius: $round-buttons;
+ }
+
+ // Sqaure buttons
+ .btn-square,
+ .a.btn-square {
+   border-radius: 0;
+ }
+
+ // Full width buttons
+ .btn-block,
+ a.btn-block {
+   display: block;
+   width: 100%;
+ }
