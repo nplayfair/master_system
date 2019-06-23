@@ -74,6 +74,14 @@
   background: $dark-color;
 }
 
+.bg-white {
+  background: white;
+}
+
+.bg-maroon {
+  background: $maroon;
+}
+
 // Border Colors
 .border-primary {
   border-color: $primary-color;
@@ -94,16 +102,6 @@
 .border-dark {
   border-color: $dark-color;
 }
-
-// Text color
-.text-white {
-  color: white;
-}
-
-.text-dark {
-  color: $font-color;
-}
-
 
 // Vertical center
 .vertical-center {

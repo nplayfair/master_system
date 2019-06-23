@@ -80,7 +80,7 @@
    background: $primary-color;
  }
 
- // Accented buttons and badges
+ // Secondary buttons and badges
  .btn-secondary,
  a.btn-secondary,
  .badge-secondary {
@@ -93,6 +93,22 @@
      color: $accent-button-color-hover;
      border: 1px solid darken($accent-button-background, 10%);
      background: darken($accent-button-background, 10%);
+   }
+ }
+
+ // Maroon buttons and badges
+ .btn-maroon,
+ a.btn-maroon,
+ .badge-maroon {
+   color: white;
+   border: 1px solid $maroon;
+   background: $maroon;
+   &:hover,
+   &:focus,
+   &:active {
+     color: white;
+     border: 1px solid darken($maroon, 10%);
+     background: darken($maroon, 10%);
    }
  }
 

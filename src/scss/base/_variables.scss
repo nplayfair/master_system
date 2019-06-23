@@ -15,16 +15,17 @@ $desktop: $medium;
 
 //* Colours
 $background: white;
-$primary-color: #41a764;
-$secondary-color: #299ccd;
+$primary-color: #0d63a6;
+$secondary-color: #189dc4;
 $dark-color: #343a3f;
-$light-color: #f8f8f8;
+$light-color: #645f72;
 $danger-color: #d33c40;
 $success-color: #28a745;
 $warning-color: #eeac57;
 $highlight: #ffeea8;
 $sega-blue: #0d63a6;
 $ms-red: #fb0d1c;
+$maroon: #c42a2e;
 $link-color: $secondary-color;
 $link-hover-color: darken($secondary-color, 15%);
 
@@ -88,7 +89,7 @@ $button-border-style: solid;
 $button-border-width: 1px;
 $button-border-color: $button-background;
 $button-border-radius: 4px;
-$button-text-transform: none;
+$button-text-transform: uppercase;
 
 // Accented buttons
 $accent-button-background: $secondary-color;
