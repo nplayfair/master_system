@@ -11,8 +11,10 @@
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
+  padding: 0.75rem 0.75rem;
   border-bottom: 1px solid $card-border-color;
+  font-family: $heading-font-family;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
