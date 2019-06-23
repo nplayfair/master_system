@@ -42,3 +42,37 @@
 .text-light {
   color: $light-color;
 }
+
+
+// Headings
+.h-sega {
+  font-family: 'SEGA', Helvetica, Arial, sans-serif;
+  font-size: 5rem;
+  color: $sega-blue;
+}
+
+.h-ms-red {
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  color: $ms-red;
+}
+
+h1.h-ms-red {
+  font-size: 4rem;
+}
+
+h2.h-ms-red {
+  font-size: 3rem;
+}
+
+h3.h-ms-red {
+  font-size: 2.5rem;
+}
+
+h4.h-ms-red {
+  font-size: 2rem;
+}
+
+h5.h-ms-red {
+  font-size: 1.5rem;
+}

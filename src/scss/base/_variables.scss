@@ -23,9 +23,10 @@ $danger-color: #d33c40;
 $success-color: #28a745;
 $warning-color: #eeac57;
 $highlight: #ffeea8;
+$sega-blue: #0d63a6;
+$ms-red: #fb0d1c;
 $link-color: $secondary-color;
 $link-hover-color: darken($secondary-color, 15%);
-$bq-border: 16px solid lighten($primary-color, 40%);
 
 //* Typography
 
@@ -40,12 +41,12 @@ $font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Ar
 
 // Font Colors
 $font-color: #404040;
-$heading-font-color: #404040;
+$heading-font-color: #000;
 $warning-font-color: #941100;
 
 // Headings
 $heading-font-weight: 600;
-$heading-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$heading-font-family: 'Georgia', 'Liberation Serif', serif;
 $heading-line-height: 1.2;
 
 // Mobile headings
@@ -74,6 +75,7 @@ $border-style: solid;
 $border-color: #dedede;
 $border-radius: 4px;
 $borders: $border-width $border-style $border-color;
+$bq-border: 16px solid lighten($primary-color, 40%);
 
 //* Buttons
 $button-background: $primary-color;
