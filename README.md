@@ -9,4 +9,6 @@ Clone the repository, run `npm install` and then `npm run sass` to watch the pro
 
 The code is open source and available under the [MIT License](LICENSE.md). 
 
+Fonts by [CUFON](https://www.cufonfonts.com/font/sega-logo-font).
+
 Built and maintained by [Nick Playfair](https://www.nickplayfair.co.uk)
