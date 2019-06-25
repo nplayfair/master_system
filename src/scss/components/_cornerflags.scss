@@ -1,0 +1,39 @@
+%corner-flag {
+  width: 0; 
+	height: 0; 
+	border-top: 150px solid;
+	border-bottom: 150px solid transparent;
+  border-right: 150px solid transparent;
+  float: left;
+  z-index: -1;
+}
+
+// Genre Corner Flags
+.action-flag {
+  @extend %corner-flag;
+  border-top-color: red;
+}
+
+.action-flag > span {
+  color: white;
+}
+
+.arcade-flag {
+  @extend %corner-flag;
+  border-top-color: yellow;
+}
+
+.arcade-flag > span {
+  color: black;
+}
+
+span.flag-text {
+  position:absolute;
+  top: 35px;
+  width: 100px;
+  left: 5px;
+  text-align: center;
+  transform: rotate(-45deg);
+  display:block;
+  font-weight: bold;
+}
